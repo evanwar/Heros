@@ -37,18 +37,18 @@ export const HeroScreen = ({ history }) => {
 
             <div className="col-4">
                 <img
-                    src={`${'https://evanwar.github.io'}/docs/assets/heroes/${id}.jpg`}
+                    src={`../assets/heroes/${id}.jpg`}
                     alt={superhero}
                     className="img-thumbnail animate__animated animate__fadeInLeft" />
             </div>
 
-            <div className="col-8">
+            <div className="col-8 neon">
                 <h3>{superhero}</h3>
 
                 <ul className="list-group list-group-flush">
-                    <li className="list-group-item"><b>Alter ego: </b>{alter_ego}</li>
-                    <li className="list-group-item"><b>Publisher: </b>{publisher}</li>
-                    <li className="list-group-item"><b>First appear: </b>{first_appearance}</li>
+                    <li ><b>Alter ego: </b>{alter_ego}</li>
+                    <li ><b>Publisher: </b>{publisher}</li>
+                    <li ><b>First appear: </b>{first_appearance}</li>
                 </ul>
 
                 <h5>Characters</h5>
