@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react'
 import { Redirect, useParams } from 'react-router-dom'
+import { heroImages } from '../../helpers/heroImages';
 import { getHeroesbyId } from '../selectors/getHeroesById';
 
-const heroImages = require.context('../../assets/heroes', true);
 
 export const HeroScreen = ({ history }) => {
 
