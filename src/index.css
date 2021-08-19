@@ -2,6 +2,10 @@ body{
     background: linear-gradient(to right, rgb(1, 1, 34), rgb(21, 41, 53));
 }
 
+.remove {
+    list-style-type: none; 
+ }
+
 
 .neon {
     font-weight: bold;

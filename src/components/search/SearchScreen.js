@@ -29,14 +29,6 @@ export const SearchScreen = ({ history }) => {
     }
 
 
-
-    // const handleTextChanged = ({ target }) => {
-    //     if(target?.value.trim().length>3){
-    //         console.log(target.value);
-    //     }
-
-    // }
-
     return (
         <>
 
